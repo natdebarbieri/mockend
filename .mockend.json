@@ -1,13 +1,39 @@
 {
-    "Post": {
-      "title": "string",
-      "views": "int",
-      "published": "boolean",
-      "createdAt": "date",
-      "comments": "Comment[]"
-    },
-    "Comment": {
-      "body": "string",
-      "post": "Post"
-    }
+    "LiveStream": [
+        {​​​​​​​
+            "id": "88d6274a3c134568abfa87a4c635a9ee",
+            "name": "Test7",
+            "description": "Adr7",
+            "clubId": 312,
+            "roomId": "7",
+            "region": "Central_US_1",
+            "liveTranscription": "en_us",
+            "preset": "720p",
+            "status": "Deleting",
+            "ingestEndpoints": [
+                "rtmp://88d6274a3c134568abfa87a4c635a9ee-lanierlifetimeottams-usct.channel.media.azure.net:1935/live/88d6274a3c134568abfa87a4c635a9ee",
+                "rtmp://88d6274a3c134568abfa87a4c635a9ee-lanierlifetimeottams-usct.channel.media.azure.net:1936/live/88d6274a3c134568abfa87a4c635a9ee",
+                "rtmps://88d6274a3c134568abfa87a4c635a9ee-lanierlifetimeottams-usct.channel.media.azure.net:2935/live/88d6274a3c134568abfa87a4c635a9ee",
+                "rtmps://88d6274a3c134568abfa87a4c635a9ee-lanierlifetimeottams-usct.channel.media.azure.net:2936/live/88d6274a3c134568abfa87a4c635a9ee"
+            ],
+            "previewEndpoints": [
+                "https://88d6274a3c134568abfa87a4c635a9ee-lanierlifetimeottams.preview-usct.channel.media.azure.net/1b89a30e-d388-40fd-95e1-ee2f48719601/preview.ism/manifest"
+            ],
+            "playbackEndpoints": [
+                "https://lanierlifetimeottams-usct.streaming.media.azure.net/88d6274a-3c13-4568-abfa-87a4c635a9ee/output.ism/manifest(format=m3u8-aapl)",
+                "https://lanierlifetimeottams-usct.streaming.media.azure.net/88d6274a-3c13-4568-abfa-87a4c635a9ee/output.ism/manifest(format=m3u8-cmaf)",
+                "https://lanierlifetimeottams-usct.streaming.media.azure.net/88d6274a-3c13-4568-abfa-87a4c635a9ee/output.ism/manifest(format=mpd-time-csf)",
+                "https://lanierlifetimeottams-usct.streaming.media.azure.net/88d6274a-3c13-4568-abfa-87a4c635a9ee/output.ism/manifest(format=mpd-time-cmaf)",
+                "https://lanierlifetimeottams-usct.streaming.media.azure.net/88d6274a-3c13-4568-abfa-87a4c635a9ee/output.ism/manifest"
+            ],
+            "liveOutputName": null,
+            "manifestName": null,
+            "streamingLocatorID": "88d6274a-3c13-4568-abfa-87a4c635a9ee",
+            "liveEventName": "88d6274a3c134568abfa87a4c635a9ee",
+            "errorMessage": null,
+            "encoderConnected": false,
+            "latestUnPublishTime": "2020-12-30T17:16:21.1219224-03:00",
+            "etag": "\"c309aaba-0000-0800-0000-5fece0a70000\""
+        }​​​​​​​​​​​​​​
+    ]
 }
